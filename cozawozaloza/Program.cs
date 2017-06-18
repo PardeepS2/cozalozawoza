@@ -26,6 +26,9 @@ namespace cozawozaloza
                 else if (i % 3 != 0 && i % 5 != 0 && i % 7 != 0){
                     Console.Write(i);
                 }
+                if (i % 11 == 0){
+                    Console.WriteLine();
+                }
             }
         }
     }          
