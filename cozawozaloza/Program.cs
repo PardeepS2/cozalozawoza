@@ -10,11 +10,10 @@ namespace cozawozaloza
     {
         static void Main(string[] args)
         {
-            int Counterstart = 1 , counterend = 111 ;
-            int n;
-           for (int i = Counterstart; i < counterend; ++i){
+            int Counterstart = 1 , counterend = 110 ;
+            
+           for (int i = Counterstart; i <= counterend; ++i){
                 if (i % 3 == 0 ){ 
-                    
                      Console.Write("Coza");
                 }
                  else if (i % 5 == 0){
@@ -33,9 +32,10 @@ namespace cozawozaloza
                     Console.Write(" ");
                 }
 			}Console.ReadKey();
-            }
         }
-    }          
+    }
 }
+
+
     
 
