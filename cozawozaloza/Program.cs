@@ -12,7 +12,12 @@ namespace cozawozaloza
         {
             int Counterstart = 1 , counterend = 111 ;
             int n;
-           
+           for (int i = Counterstart; i < counterend; ++i){
+                if (i % 3 == 0 ){ 
+                    
+                     Console.Write("Coza");
+                }
+            }
         }
     }          
 }
