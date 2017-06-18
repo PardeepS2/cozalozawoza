@@ -29,6 +29,10 @@ namespace cozawozaloza
                 if (i % 11 == 0){
                     Console.WriteLine();
                 }
+                else {
+                    Console.Write(" ");
+                }
+			}Console.ReadKey();
             }
         }
     }          
