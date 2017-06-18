@@ -17,6 +17,9 @@ namespace cozawozaloza
                     
                      Console.Write("Coza");
                 }
+                 else if (i % 5 == 0){
+                    Console.Write("Loza");
+                }
             }
         }
     }          
