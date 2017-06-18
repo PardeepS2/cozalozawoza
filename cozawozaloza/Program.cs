@@ -10,6 +10,11 @@ namespace cozawozaloza
     {
         static void Main(string[] args)
         {
+            int Counterstart = 1 , counterend = 111 ;
+            int n;
+           
         }
-    }
+    }          
 }
+    
+
